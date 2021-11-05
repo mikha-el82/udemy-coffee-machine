@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5e0c4e-38f3-41ec-896d-3c27ad6ce20f" name="Changes" comment="Added print_report() function" />
+    <list default="true" id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="Added TODO tasks (almost all).">
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mikhael-82 TBLT" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Home" />
+        <entry key="$PROJECT_DIR$" value="Started_creating_TODO" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="ProjectId" id="20VO4WnLbyPBtnNBDzQMhDiUOa5" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20UVV7sCIvTNqGs9sDa8IRSoh1L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,25 +47,56 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\mikha\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe5e0c4e-38f3-41ec-896d-3c27ad6ce20f" name="Changes" comment="" />
-      <created>1636126098371</created>
+      <changelist id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="" />
+      <created>1636099182607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636126098371</updated>
+      <updated>1636099182607</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added print_report() function">
-      <created>1636132979207</created>
+    <task id="LOCAL-00001" summary="Added comments to the initial variables.">
+      <created>1636099847198</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1636132979207</updated>
+      <updated>1636099847198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added comments to the initial variables.">
+      <created>1636101059426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101059426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1 Modified comments in main.py&#10;2 Corrected typu in readme.md">
+      <created>1636101318948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101318948</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added blank data file.">
+      <created>1636101841320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101841320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added TODO tasks (almost all).">
+      <created>1636104139092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636104139092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -51,19 +104,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -71,7 +112,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added print_report() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added print_report() function" />
+    <MESSAGE value="Added comments to the initial variables." />
+    <MESSAGE value="1 Modified comments in main.py&#10;2 Corrected typu in readme.md" />
+    <MESSAGE value="Added blank data file." />
+    <MESSAGE value="Added TODO tasks (almost all)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TODO tasks (almost all)." />
   </component>
 </project>
