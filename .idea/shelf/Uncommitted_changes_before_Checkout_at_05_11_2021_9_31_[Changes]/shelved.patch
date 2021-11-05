@@ -1,0 +1,17 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># menu of the coffee machine\r\nMENU = {\r\n    \"espresso\": {\r\n        \"ingredients\": {\r\n            \"water\": 50,\r\n            \"coffee\": 18,\r\n        },\r\n        \"cost\": 1.5,\r\n    },\r\n    \"latte\": {\r\n        \"ingredients\": {\r\n            \"water\": 200,\r\n            \"milk\": 150,\r\n            \"coffee\": 24,\r\n        },\r\n        \"cost\": 2.5,\r\n    },\r\n    \"cappuccino\": {\r\n        \"ingredients\": {\r\n            \"water\": 250,\r\n            \"milk\": 100,\r\n            \"coffee\": 24,\r\n        },\r\n        \"cost\": 3.0,\r\n    }\r\n}\r\n\r\n# coffee machine resources\r\nresources = {\r\n    \"water\": 300,\r\n    \"milk\": 200,\r\n    \"coffee\": 100,\r\n}\r\n\r\n# change
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 9600da74744a3cde56f091697f431326d0c9d49a)
++++ b/main.py	(date 1636101087458)
+@@ -32,4 +32,4 @@
+     "coffee": 100,
+ }
+ 
+-# change
+\ No newline at end of file
++# change
