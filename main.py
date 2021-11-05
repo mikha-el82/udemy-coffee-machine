@@ -31,4 +31,11 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
-
+# TODO 1: prompt user to choose the drink
+# TODO 1b: show user the price of drinks
+# TODO 2: turn the machine off by typing 'off'
+# TODO 3: create function for printing a report
+# TODO 4: check sufficient resources
+# TODO 5: process coins
+# TODO 6: check if transaction is successful - enough money inserted
+# TODO 7: make coffee
