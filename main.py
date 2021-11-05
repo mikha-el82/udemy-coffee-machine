@@ -34,8 +34,21 @@ resources = {
 # TODO 1: prompt user to choose the drink
 # TODO 1b: show user the price of drinks
 # TODO 2: turn the machine off by typing 'off'
-# TODO 3: create function for printing a report
+# FINISHED TODO 3: create function for printing a report
 # TODO 4: check sufficient resources
 # TODO 5: process coins
 # TODO 6: check if transaction is successful - enough money inserted
 # TODO 7: make coffee
+
+def print_report():
+    water = resources["water"]
+    milk = resources["milk"]
+    coffee = resources["coffee"]
+    money = 0
+    print("\nCurrent state of resources")
+    print(f"Water: {water}ml")
+    print(f"Milk: {milk}ml")
+    print(f"Coffee: {coffee}g")
+    print(f"Money: ${money}")
+
+print_report()
