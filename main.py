@@ -25,7 +25,7 @@ MENU = {
     }
 }
 
-# coffee machine resources
+# coffee machine resources - can be modified
 resources = {
     "water": 300,
     "milk": 200,
