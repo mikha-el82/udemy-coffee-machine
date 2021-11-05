@@ -1,3 +1,4 @@
+# menu of the coffee machine
 MENU = {
     "espresso": {
         "ingredients": {
@@ -24,6 +25,7 @@ MENU = {
     }
 }
 
+# coffee machine resources
 resources = {
     "water": 300,
     "milk": 200,
