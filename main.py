@@ -7,6 +7,13 @@ MENU = {
         },
         "cost": 1.5,
     },
+    "americano": {
+        "ingredients": {
+            "water": 100,
+            "coffee": 18,
+        },
+        "cost": 1.85,
+    },
     "latte": {
         "ingredients": {
             "water": 200,
