@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="Added print_report() function">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -26,7 +25,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Started_creating_TODO" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636133477286</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)">
+      <created>1636156586831</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636156586831</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +166,7 @@
     <MESSAGE value="1 Modified comments in main.py&#10;2 Corrected typu in readme.md" />
     <MESSAGE value="Added blank data file." />
     <MESSAGE value="Added TODO tasks (almost all)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TODO tasks (almost all)." />
+    <MESSAGE value="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)" />
   </component>
 </project>
