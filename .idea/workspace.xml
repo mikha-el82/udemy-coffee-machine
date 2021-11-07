@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)">
+    <list default="true" id="c8bae13e-fba9-4334-8d5b-f8b4f2e098fe" name="Changes" comment="Finished code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636156586831</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished code">
+      <created>1636241964012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636241964012</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="Added blank data file." />
     <MESSAGE value="Added TODO tasks (almost all)." />
     <MESSAGE value="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost completely finished code. Some minor changes might take place (filling of ingredients etc)" />
+    <MESSAGE value="Finished code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished code" />
   </component>
 </project>

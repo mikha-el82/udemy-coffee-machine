@@ -49,11 +49,19 @@ def show_menu_and_order():
         print(f"{i}: {drink:<15} ${MENU[drink]['cost']:>5.2f}")
         i += 1
         menu.append(drink)
-    order_number = int(input("What drink would you like?\nPlease enter the corresponding number: "))
-    if order_number <= len(menu):
-        return menu[order_number-1]
-    else:
-        return order_number
+    valid_choice = False
+    while not valid_choice:
+        order_number_str = input("What drink would you like?\nPlease enter the corresponding number: ")
+        if order_number_str.isnumeric():
+            order_number = int(order_number_str)
+            if order_number <= len(menu):
+                return menu[order_number - 1]
+            elif order_number in service_codes:
+                return order_number
+            else:
+                print("Sorry, your choice is not valid.")
+        else:
+            print("Sorry, your choice is not valid.")
 
 
 def turn_machine_off():
@@ -142,6 +150,7 @@ def print_report():
 
 machine_on = True
 cash_earned = 0
+service_codes = [333, 666, 999]
 
 while machine_on:
     order = show_menu_and_order()
