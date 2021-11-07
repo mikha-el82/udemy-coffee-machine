@@ -59,9 +59,9 @@ def show_menu_and_order():
             elif order_number in service_codes:
                 return order_number
             else:
-                print("Sorry, your choice is not valid.")
+                print(" Sorry, your choice is not valid.")
         else:
-            print("Sorry, your choice is not valid.")
+            print(" Sorry, your choice is not valid.")
 
 
 def turn_machine_off():
@@ -75,16 +75,16 @@ def check_resources(order):
     """ Checks if there are enough resources for the selected drink; returns True / False """
     for ingredient in MENU[order]['ingredients']:
         if MENU[order]['ingredients'][ingredient] > resources[ingredient]:
-            print(f"Sorry, there is not enough {ingredient}..")
+            print(f" Sorry, there is not enough {ingredient}..")
             return False
-    print(f"Your choice is {order}, the price is ${MENU[order]['cost']:.2f}")
+    print(f" Your choice is {order}, the price is ${MENU[order]['cost']:.2f}")
     return True
 
 
 def final_resources_check(resources):
     """ Checks resources after the drink is made; if some ingredient is depleted, turns machine off (returns False) """
     if resources['water'] == 0 or resources['milk'] == 0 or resources['coffee'] == 0:
-        print("Sorry, some resources are now completely depleted.\nThe machine will turn off now.")
+        print(" Sorry, some resources are now completely depleted.\nThe machine will turn off now.")
         return turn_machine_off()
     else:
         return True
@@ -115,7 +115,7 @@ def process_coins():
 def check_money(total_money_inserted, order):
     """ Checks if money inserted is sufficient; if not - refunds money and returns False, if yes - returns True """
     if MENU[order]['cost'] > total_money_inserted:
-        print(f"Sorry that's not enough money. ${total_money_inserted:.2f} refunded.")
+        print(f" Sorry that's not enough money. ${total_money_inserted:.2f} refunded.")
         return False
     else:
         return True
